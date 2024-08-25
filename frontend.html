@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jillion Technologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for additional styling and animations */
+        .hero-section {
+            padding: 80px 0;
+            text-align: left;
+        }
+        .hero-section img {
+            max-width: 60%;
+            padding-top: 30px;
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .features-section img{
+            max-width: 60%;
+            animation: float 6s ease-in-out infinite;
+        }
+        .features-section {
+            padding: 80px 0;
+        }
+        .products-section {
+            padding: 80px 0;
+        }
+        .testimonials-section {
+            padding: 80px 0;
+        }
+
+
+        .carousel-item p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .carousel-item strong {
+            color: #28a745;
+            font-size: 1.2rem;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #28a745;
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        .carousel-indicators [data-bs-target] {
+            background-color: #28a745;
+        }
+
+        .carousel-inner {
+            text-align: center;
+        }
+
+        .carousel-item {
+            transition: transform 0.6s ease-in-out;
+        }
+
+        .carousel-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jillion Technologies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- reality -->
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4">WE MAKE YOUR IDEA'S <br><span style="color: #F77F00;">INTO REALITY</span></h1>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-outline-primary">Contact Us</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://media.istockphoto.com/id/1224998699/vector/young-guy-an-freelancer-working-on-a-laptop.jpg?s=612x612&w=0&k=20&c=MBTn_KPEApCvpbna3Mk5jFkz56PbibxD13ixQu-3kZc=" alt="Hero Image" class="img-fluid">
+            </div>
+        </div>
+    </div>   
+    <!-- features -->
+    <div class="container features-section text-center" id="features">
+        <h2 class="mb-5">Features</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.skoolbeep.com/students-assessment/assets/img/discover/online-exam-master.svg" alt="Features Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h4>Card Title</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Card Title</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://static.vecteezy.com/system/resources/previews/001/889/662/non_2x/businesswoman-cartoon-with-board-design-free-vector.jpg" alt="Features Image" class="img-fluid">
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://img.freepik.com/premium-vector/video-lecture-flat-illustration-vector-download_203633-3121.jpg" alt="Features Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h4>Card Title</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container products-section text-center" id="products">
+        <h2 class="mb-5">Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="testimonials">
+        <h2 class="text-center">TESTIMONIALS</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.G6m5nBOrOpnwjoloUK3zhAHaIB?pid=ImgDet&w=179&h=193&c=7&dpr=1.3" class="rounded-circle mb-4" alt="Testimonial Image">
+                    <p>Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia...</p>
+                    <p><strong>PAULA WILSON</strong>, Media Analyst</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="path_to_testimonial_image2.png" class="rounded-circle mb-4" alt="Testimonial Image">
+                    <p>Fusce ornare urna sit amet ligula malesuada, eget tincidunt justo viverra...</p>
+                    <p><strong>JOHN DOE</strong>, Software Engineer</p>
+                </div>
+                <!-- Add more items as needed -->
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    
+            <ol class="carousel-indicators">
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></li>
+                <!-- Add indicators as needed -->
+            </ol>
+        </div>
+    </div>
+<!-- Contact Us Section -->
+    <div class="container mt-5" id="contactUs">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="https://cdn.dribbble.com/users/2298849/screenshots/6547750/illustration-design4_4x.jpg" alt="Contact Us Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="textarea" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="bg-primary text-white mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>CONTACT US</h5>
+                    <p>Email</p>
+                    <p>contact@JILLIONTECHNOLOGIES.com</p>
+                    <p>Phone</p>
+                    <p>123456789</p>
+                    <p>Address</p>
+                    <p>C-260, Sector-63, Noida, UP-201301,</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>COMPANY</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Portfolio</a></li>
+                        <li><a href="#" class="text-white">Development Process</a></li>
+                        <li><a href="#" class="text-white">Career</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>SERVICE</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Website Development</a></li>
+                        <li><a href="#" class="text-white">Mobile App Development</a></li>
+                        <li><a href="#" class="text-white">E-commerce Development</a></li>
+                        <li><a href="#" class="text-white">Customer Software Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>SUPPORT</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Contact</a></li>
+                        <li><a href="#" class="text-white">Term & Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
